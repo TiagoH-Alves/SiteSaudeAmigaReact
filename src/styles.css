@@ -263,6 +263,13 @@ select {
   transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+input[type='checkbox'],
+input[type='radio'] {
+  width: auto;
+  flex: 0 0 auto;
+  margin: 0;
+}
+
 input:hover,
 select:hover {
   transform: translateY(-1px);
